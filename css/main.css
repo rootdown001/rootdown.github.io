@@ -147,16 +147,9 @@ a {
 	list-style-type: none;
 }
 
-/*
-.mybutton {
-	display: block;
-	margin: 0px auto;
 
 
-}
-*/
-
-.button {
+.button1 {
 	position: relative;
 	top: 16px;
 	left: 50%;
@@ -200,6 +193,14 @@ a {
 	font-style: italic;
 }
 
+@media (max-width: 1000px) {
+	#img-div {
+	  width: 150px;
+	}
+  }
+
+
+
 figcaption:first-letter {
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -210,7 +211,8 @@ figcaption:first-letter {
 	margin-top: 77px;
 	background-color: #fff;
 	color: #000;
-	height: 100vh;
+	height: auto;
+	padding-top: 40px;
   }
 
   #projects > p {
@@ -222,11 +224,13 @@ figcaption:first-letter {
 	text-transform: none;
 	line-height: 1.2;
 	text-align: center;
+	padding-top: 30px;
 }
 
 
   .project-image {
 	  width: 100%;
+	  border-style: double;
   }
 
   .projects-grid {
@@ -234,7 +238,7 @@ figcaption:first-letter {
 	  grid-template-columns: 40% 40%;
 	  justify-content: space-evenly;
 	  max-width: 1280px;
-	  margin-bottom: 6rem;
+	
 	
   }
 
@@ -248,3 +252,23 @@ figcaption:first-letter {
 	  color: #000;
 	  padding-top: 4rem;
   }
+
+  .button2 {
+	position: relative;
+	top: 30px;
+	left: 50%;
+	transform: translate(-50%);
+	display: inline-block;
+	border: 1px solid #000;
+	color: #000;
+	background-color: transparent;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 300;
+	letter-spacing: 1px;
+	padding: 12px 24px;
+	text-transform: uppercase;
+	cursor: pointer;
+	width: auto;
+	text-align: center;
+	margin-bottom: 5rem;
