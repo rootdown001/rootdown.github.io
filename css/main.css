@@ -229,3 +229,7 @@ figcaption:first-letter {
   .project-tile > p {
 	  text-align: center;
   }
+
+  .project-tile {
+	  padding-top: 4rem;
+  }
